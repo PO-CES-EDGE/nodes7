@@ -1,3 +1,7 @@
+# DISCLAIMER
+This project is a fork of https://github.com/st-one-io/nodes7 with the main purpose of addressing two specific issues: the first issue being the limitation of only being able to write a maximum of 12 variables at the same time to the PLC and the second issue being the prevention of extra unintended connections being opened. More details about the code changes are available here: https://github.com/st-one-io/nodes7/pull/9. 
+We hope to see our pull request merged in the main project in the future.
+
 # nodes7
 
 NodeS7 is a library that allows communication to S7-200/300/400/1200/1500 PLCs using the Siemens S7Communication protocol over ISO-on-TCP (RFC1006) or MPI/PPI/DP USB Adapters.
